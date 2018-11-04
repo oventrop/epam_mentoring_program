@@ -1,5 +1,5 @@
 {
-  "passengerVehicles": [
+  "vehicle": [
     {
       "taxi": [
         {
@@ -8,7 +8,8 @@
           "vehiclePrice": 10000,
           "dailyRoute": 0,
           "fuelConsumption": 10
-        },{
+        },
+        {
           "name": "taxi2",
           "totalRoute": 300000,
           "vehiclePrice": 7000,
@@ -21,8 +22,8 @@
           "vehiclePrice": 10000,
           "dailyRoute": 0,
           "fuelConsumption": 10
-        },
-
-      ]
+        }
       ]
     }
+  ]
+}
