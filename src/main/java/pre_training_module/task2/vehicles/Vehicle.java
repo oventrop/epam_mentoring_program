@@ -1,21 +1,29 @@
 package pre_training_module.task2.vehicles;
 
-public class Vehicle implements Movable {
+import com.fasterxml.jackson.annotation.JsonProperty;
+
+public class Vehicle {
+    @JsonProperty
     private String name;
+    @JsonProperty
     private int totalRoute;
+    @JsonProperty
     private int vehiclePrice;
+    @JsonProperty
     private int dailyRoute;
+    @JsonProperty
     private int fuelConsumption;
 
-    public Vehicle(String name, int totalRoute, int vehiclePrice) {
-        this.name = name;
-        this.totalRoute = totalRoute;
-        this.vehiclePrice = vehiclePrice;
+    public String getName() {
+        return name;
     }
 
-    @Override
+    public void setName(String name) {
+        this.name = name;
+    }
+
     public int getTotalRoute() {
-        return totalRoute + dailyRoute;
+        return totalRoute;
     }
 
     public void setTotalRoute(int totalRoute) {
@@ -46,11 +54,14 @@ public class Vehicle implements Movable {
         this.fuelConsumption = fuelConsumption;
     }
 
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
+    @Override
+    public String toString() {
+        return "Vehicle{" +
+                "name='" + name + '\'' +
+                ", totalRoute=" + totalRoute +
+                ", vehiclePrice=" + vehiclePrice +
+                ", dailyRoute=" + dailyRoute +
+                ", fuelConsumption=" + fuelConsumption +
+                '}';
     }
 }

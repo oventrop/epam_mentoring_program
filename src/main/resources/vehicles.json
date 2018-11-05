@@ -1,29 +1,23 @@
-{
-  "vehicle": [
-    {
-      "taxi": [
-        {
-          "name": "taxi1",
-          "totalRoute": 200000,
-          "vehiclePrice": 10000,
-          "dailyRoute": 0,
-          "fuelConsumption": 10
-        },
-        {
-          "name": "taxi2",
-          "totalRoute": 300000,
-          "vehiclePrice": 7000,
-          "dailyRoute": 0,
-          "fuelConsumption": 12
-        },
-        {
-          "name": "taxi3",
-          "totalRoute": 400000,
-          "vehiclePrice": 10000,
-          "dailyRoute": 0,
-          "fuelConsumption": 10
-        }
-      ]
-    }
-  ]
-}
+[
+  {
+    "name": "taxi1",
+    "totalRoute": 200000,
+    "vehiclePrice": 10000,
+    "dailyRoute": 0,
+    "fuelConsumption": 10
+  },
+  {
+    "name": "taxi2",
+    "totalRoute": 300000,
+    "vehiclePrice": 7000,
+    "dailyRoute": 0,
+    "fuelConsumption": 12
+  },
+  {
+    "name": "taxi3",
+    "totalRoute": 400000,
+    "vehiclePrice": 10000,
+    "dailyRoute": 0,
+    "fuelConsumption": 10
+  }
+]
